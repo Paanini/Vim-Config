@@ -1,4 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_cnt =4
 let g:netrw_dirhist_1='/media/Software/Dropbox/Notes'
 let g:netrw_dirhist_2='/home/paanini/Scripts/edX'
+let g:netrw_dirhist_3='/media/Software/Dropbox/Notes'
+let g:netrw_dirhist_4='/home/paanini/.pentadactyl'
