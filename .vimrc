@@ -1,4 +1,4 @@
-colorscheme zenburn
+colorscheme jellybeans
 filetype off
 
 "Load all plugins installed via Pathogen
@@ -31,6 +31,8 @@ set showmatch
 set foldmethod=indent
 "set foldnestmax=5
 set foldlevel=99
+set ignorecase
+set hlsearch
 
 "***********Key Mappings****************
 
@@ -60,7 +62,7 @@ let laststatus=2
 set t_Co=256
 
 "*********NERDtree plugin*************
-autocmd vimenter * if !argc() | NERDTree | endif
+"autocmd vimenter * if !argc() | NERDTree | endif
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 map <leader>n :NERDTreeToggle<CR>
 

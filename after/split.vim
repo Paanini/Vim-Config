@@ -1,1 +1,0 @@
-ConqueTermSplit zsh
