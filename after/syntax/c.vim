@@ -287,5 +287,4 @@ highlight def link cCustomFunc Function
 "highlight def link cMacro PreProc
 "highlight def link cMAC PreProc
 
-hi cMacro ctermfg=210 gui=bold guifg=IndianRed1
-
+hi cMacro ctermfg=203 gui=bold guifg=IndianRed1
